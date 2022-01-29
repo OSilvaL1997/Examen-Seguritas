@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SeguritasModelStoreContainer" CdmEntityContainer="SeguritasEntities">
+    <EntitySetMapping Name="Clientes">
+      <EntityTypeMapping TypeName="SeguritasModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Coberturas">
+      <EntityTypeMapping TypeName="SeguritasModel.Cobertura">
+        <MappingFragment StoreEntitySet="Cobertura">
+          <ScalarProperty Name="IdCobertura" ColumnName="IdCobertura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Planes">
+      <EntityTypeMapping TypeName="SeguritasModel.Plane">
+        <MappingFragment StoreEntitySet="Planes">
+          <ScalarProperty Name="IdPlan" ColumnName="IdPlan" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ClienteAdd" FunctionName="SeguritasModel.Store.ClienteAdd" />
+    <FunctionImportMapping FunctionImportName="ClienteDelete" FunctionName="SeguritasModel.Store.ClienteDelete" />
+    <FunctionImportMapping FunctionImportName="ClienteGetById" FunctionName="SeguritasModel.Store.ClienteGetById">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SeguritasModel.ClienteGetById_Result">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="ClientePlanes">
+      <EntityTypeMapping TypeName="SeguritasModel.ClientePlane">
+        <MappingFragment StoreEntitySet="ClientePlanes">
+          <ScalarProperty Name="IdPlan" ColumnName="IdPlan" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdClientePlanes" ColumnName="IdClientePlanes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PlanesCoberturas">
+      <EntityTypeMapping TypeName="SeguritasModel.PlanesCobertura">
+        <MappingFragment StoreEntitySet="PlanesCobertura">
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="IdPlan" ColumnName="IdPlan" />
+          <ScalarProperty Name="IdPlanesCobertura" ColumnName="IdPlanesCobertura" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ClienteUpdate" FunctionName="SeguritasModel.Store.ClienteUpdate" />
+  </EntityContainerMapping>
+</Mapping>

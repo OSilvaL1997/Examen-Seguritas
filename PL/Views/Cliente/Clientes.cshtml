@@ -1,0 +1,56 @@
+﻿@model ENT.Cliente
+@{
+    ViewBag.Title = "Clientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Clientes</h2>
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Clientes</h2>
+            <h5>Da clic sobre + para registrar un cliente</h5>
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-offset-11 text-left">
+            @Html.ActionLink("+", "Formulario", "Cliente", htmlAttributes: new { @class = "btn btn-success" })
+            <br />
+            <br />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table-bordered table-responsive">
+                <thead>
+                    <tr>
+                        <td class="text-center">Editar</td>
+                        <td class="hidden">IdCliente</td>
+                        <td>Nombre</td>
+                        <td>Apellido Paterno</td>
+                        <td>Apellido Materno</td>
+                        <td>Fecha de Modificacion</td>
+                        <td class="text-center">Eliminar</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (ENT.Cliente cliente in Model.Clientes)
+                    {
+                        <tr>
+                            <td class="text-center"><a class="btn btn-warning glyphicon glyphicon-edit" href="@Url.Action("Formulario", "Cliente", new {IdCliente = cliente.IdCliente})"></a></td>
+                            <td class="hidden">@cliente.IdCliente</td>
+                            <td>@cliente.Nombre</td>
+                            <td>@cliente.ApellidoPaterno</td>
+                            <td>@cliente.ApellidoMaterno</td>
+                            <td>@cliente.FechaModificacion</td>
+                            <td class="text-center"><a class="btn btn-danger glyphicon glyphicon-trash" href="@Url.Action("Delete", "Cliente", new { IdCliente = cliente.IdCliente })" onclick="return confirm('¿Estas seguro que deseas eliminar?')"></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

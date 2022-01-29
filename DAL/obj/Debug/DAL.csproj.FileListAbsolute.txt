@@ -1,0 +1,21 @@
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\bin\Debug\DAL.dll.config
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\bin\Debug\DAL.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\bin\Debug\DAL.pdb
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\obj\Debug\DAL.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\DAL\obj\Debug\DAL.pdb
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\bin\Debug\DAL.dll.config
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\bin\Debug\DAL.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\bin\Debug\DAL.pdb
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\bin\Debug\EntityFramework.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\bin\Debug\EntityFramework.xml
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\obj\Debug\DAL.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,32 @@
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\BLL.dll.config
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\BLL.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\BLL.pdb
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\DAL.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\ENT.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\EntityFramework.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\DAL.pdb
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\ENT.pdb
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\EntityFramework.xml
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\obj\Debug\BLL.dll
+C:\Users\ALIEN 14\Music\AramOzielCalebSilvaLopez\Seguritas\BLL\obj\Debug\BLL.pdb
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\BLL.dll.config
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\BLL.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\BLL.pdb
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\DAL.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\ENT.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\EntityFramework.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\DAL.pdb
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\DAL.dll.config
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\ENT.pdb
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\ENT.dll.config
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\EntityFramework.xml
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\obj\Debug\BLL.dll
+C:\Users\050MAN\Documents\VisualStudio\Seguritas\BLL\obj\Debug\BLL.pdb
